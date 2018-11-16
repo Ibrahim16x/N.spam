@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "2";
+var prefix = "1";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
@@ -8,10 +8,10 @@ client.on('ready', () => {
 
 client.on('ready', async() => {
 var server = "503678988796035082"; // ايدي السررفر
-var channel = "513038923241488394";//ايدي الروم
+var channel = "512373707528863765";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network,New.Network, **')
-    },680);
+    client.guilds.get(server).channels.get(channel).send('**احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله ,احبكم في الله , **')
+    },508);
 })
 
 client.on('message', message => {
@@ -32,3 +32,4 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
 
  
 client.login(process.env.BOT_TOKEN);
+
